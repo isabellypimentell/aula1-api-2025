@@ -1,0 +1,8 @@
+@url = https://friendly-palm-tree-r4x7jgvq6jfpxq5-8080.app.github.dev/
+GET {{url}}
+
+###
+POST {{url}}
+Content-Type: text/plain
+
+Abacate
