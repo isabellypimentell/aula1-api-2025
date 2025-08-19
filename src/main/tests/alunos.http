@@ -1,0 +1,30 @@
+@url = https://literate-space-eureka-x6j4xgrg99gc6997-8080.app.github.dev/aluno
+
+### 
+POST {{url}}
+Content-Type: application/json
+
+{
+  "id": 1,
+  "nome": "Isabelly",
+  "idade": 20
+}
+
+### 
+GET {{url}}
+
+
+### 
+PUT {{url}}/1
+Content-Type: application/json
+
+{
+  "nome": "Isa",
+  "idade": 21
+}
+
+### 
+DELETE {{url}}/1
+
+###
+GET {{url}}/0
